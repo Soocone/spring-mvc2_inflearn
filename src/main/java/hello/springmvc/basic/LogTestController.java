@@ -21,7 +21,7 @@ public class LogTestController {
         log.warn(" warn log= {}", name);
         log.error(" error log= {}", name);
 
-        //로그를 사용하지 않아도 a+b 계산 로직이 먼저 실행됨, 이런 방식으로 사용하면 X. 연산이 일어나면서 쓸데없이 메모리, cpu를 사용하게 됨
+        //로그를 사용하지 않아도 a+b 계산 로직이 먼저 실행됨, 이런 방식으로 사용하면 X. 연산이 일어나면서 쓸데없이 메모리, cpu를 사용하게 됨..
         log.debug("String concat log=" + name);
         return "ok";
     }
